@@ -1,0 +1,66 @@
+.panel-form, .panel-details {
+    width: 30vw;
+    height: 70vh;
+    border: 1px solid #C4C8CC;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px $gray-dark;
+
+    padding: 30px;
+    margin: -70px 35px 35px 0;
+}
+
+.panel-form {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+
+.panel-details {
+    background: $cold-grey 0% 0% no-repeat padding-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.label-text {
+    font: normal normal normal 1.5rem 'Open Sans';
+    color: #2E2D2C;
+}
+
+.info-text {
+    color: #ABABAB;
+}
+
+.text-purple {
+    color: #403D70;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.text-details {
+    font: normal normal 600 1.5rem 'Open Sans';
+    margin-bottom: 5%;
+}
+
+label {
+    font: normal normal 300 1.2rem 'Open Sans';
+}
+
+h1 {
+    font: normal normal bold 2.5rem 'Open Sans';
+    letter-spacing: 0px;
+
+    margin-bottom: 20px;
+}
+
+h3 {
+    font: normal normal 600 1.7rem 'Open Sans';
+    margin-top: 30px;
+}
+
+span {
+    text-align: left;
+    letter-spacing: 0px;
+    font: italic normal normal 1.3rem 'Open Sans';
+}

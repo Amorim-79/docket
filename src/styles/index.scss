@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@import 'colors';
+@import 'panel';
+@import 'form';
+@import 'button';
+@import 'carousel';
+@import 'toastr';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Open Sans';
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    background: url('assets/images/background.png') repeat;
+}
+
+header, main, footer {
+    width: 100%;
+}
+
+header {
+    height: 30vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+
+    background-color: $background-color;
+}
+
+footer {
+    height: 5vh;
+
+    background: transparent linear-gradient(116deg, #5A5789 0%, #2D2C45 100%) 0% 0% no-repeat padding-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-image {
+    height: 8vh;
+    margin: 1% 18%;
+}
+
+#footer-text {
+    font: normal normal bold 1.5rem 'Open Sans';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+@import 'responsive';

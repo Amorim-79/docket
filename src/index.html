@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Docket</title>
+</head>
+<body>
+    <header>
+        <img class="logo-image" src="./assets/images/logo 4k.svg" alt="logo docket">
+    </header>
+
+    <main>
+        <div class="panel-form">
+            <h1>Venha trabalhar na Docket</h1>
+            <span>Preencha o formulário abaixo e venha trabalhar em uma das startups mais desejadas do Brasil!</span>
+            
+            <h3>Dados Pessoais</h3>
+            <form class="form" action="">
+
+                <div class="input-block">
+                    <label class="label-text" for="name"><span style="color: red;">*</span> Nome Completo:</label>
+                    <input type="text" name="name" id="name" placeholder="Seu Nome" required>
+                </div>
+
+                <div class="input-block">
+                    <label class="label-text" for="email"><span style="color: red;">*</span> E-mail:</label>
+                    <input type="email" name="email" id="email" placeholder="seunome@sobrenome.com.br" required>
+                </div>
+                
+                <div class="container-phone">
+
+                    <div class="input-block">
+                        <label class="label-text" for="first-phone"><span style="color: red;">*</span> Telefone 1:</label>
+                        <input type="text" name="first-phone" id="first-phone" placeholder="(88) 8888-8888" required>
+                    </div>
+
+                    <div class="input-block">
+                        <label class="label-text" for="second-phone">Telefone 2:</label>
+                        <input type="text" name="second-phone" id="second-phone" placeholder="(88) 8888-8888">
+                    </div>
+
+                </div>
+
+                <button class="button-submit" type="submit">Enviar</button>
+            </form>
+        </div>
+
+        <div class="panel-details">
+            <div class="details">
+                <h1 class="text-purple">Ficha do candidato</h1>
+                <span class="info-text">Preencha o formulário e clique em "Enviar" após conferir atentamente.</span>
+            </div>
+        
+            <div class="container-projects">
+                <h3>Seus Projetos:</h3>
+
+                <div class="container-carousel">
+                    <div id="scroll-left" class="arrow left"></div>
+
+                    <div class="carousel-area">
+                        <div style="left: 0px;" id="carousel">
+                    </div>
+                        
+                    </div>
+                    <div id="scroll-right" class="arrow right"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <span id="footer-text">DOCKET © 2019</span>
+    </footer>
+
+    <script src="./script.js" defer></script>
+</body>
+</html>

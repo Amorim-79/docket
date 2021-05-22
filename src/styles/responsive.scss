@@ -1,0 +1,53 @@
+@media screen and (max-width: 1025px) {
+    main {
+        height: auto;
+
+        flex-direction: column;
+        align-content: space-between;
+        align-items: center;
+    }
+
+    header {
+        height: 40vh;
+        padding: 30px;
+    }
+
+    .logo-image {
+        margin: 0 0 10px 0;
+    }
+
+    .panel-form, .panel-details {
+        width: 80vw;
+        height: auto;
+        margin: -70px 15px 35px 15px;
+    }
+
+    .panel-form {
+        margin: -30px 15px 35px 15px;
+    }
+
+    .panel-details {
+        margin: 20px 15px 35px 15px;
+    }
+
+    .container-phone {
+        display: inline-block;
+        width: 100%;
+    }
+
+    #toastr {
+        width: 80vw;
+        left: 10%;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1550px) {
+    .panel-form, .panel-details {
+        width: 35vw;
+        margin: -70px 15px 35px 15px;
+    }
+
+    .input-block {
+        margin-bottom: 20px;
+    }
+}

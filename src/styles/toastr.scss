@@ -1,0 +1,21 @@
+#toastr {
+    top: 5%;
+    position: fixed;
+    left: 37%;
+    width: 26vw;
+    height: 6vh;
+    background: #73E6CBCC 0% 0% no-repeat padding-box;
+    border: 2px solid #00B98E;
+    border-radius: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toastr-text {
+    text-align: left;
+    font: normal normal 600 1.6rem 'Open Sans';
+    letter-spacing: 0px;
+    color: #008768;
+}
